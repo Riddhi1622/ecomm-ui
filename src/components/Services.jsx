@@ -19,7 +19,7 @@ function Services() {
         </div>
         <div className="service two">
           <div className="content">
-            <h4>Disc Up to 25%</h4>
+            <h4>Disco Up to 25%</h4>
             <p>
               Learn More <HiArrowSmRight />
             </p>
@@ -40,7 +40,7 @@ function Services() {
           </div>
         </div>
         <div className="service four">
-          <p>EhyaVersarry Monthly Deals</p>
+          <p> Monthly Deals</p>
           <h4>Free Delivery</h4>
           <p>
             Learn More <HiArrowSmRight />

@@ -11,7 +11,7 @@ function Navbar({ changeTheme, currentTheme }) {
     <nav>
       <div className="container py-3 mx-3">
         <div className="brand">
-          <span>ehya</span>
+          <span>GrabDeal</span>
           <span className="dot">.</span>
         </div>
         <div className="links-container" onClick={(e) => e.stopPropagation()}>
@@ -37,19 +37,19 @@ function Navbar({ changeTheme, currentTheme }) {
           <div className={`links ${navState ? "responsive-toggle" : ""}`}>
             <ul>
               <li>
-                <a href="#"> Home</a>
+                <a href="/"> Home</a>
               </li>
               <li>
-                <a href="#"> Landings</a>
+                <a href="/"> Clothing</a>
               </li>
               <li>
-                <a href="#"> Pages</a>
+                <a href="/"> Electronic</a>
               </li>
               <li>
-                <a href="#"> Docs</a>
+                <a href="/"> Groceries</a>
               </li>
               <li>
-                <a href="#"> Help</a>
+                <a href="/"> Help</a>
               </li>
               <li onClick={changeTheme} className="color-mode">
                 {currentTheme === "dark" ? (

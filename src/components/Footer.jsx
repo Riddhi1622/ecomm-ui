@@ -3,23 +3,23 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 function Footer() {
   const data = [
     {
-      type: "Product",
+      type: "Make Money With Us",
       subTypes: [
-        "Landing Page",
-        "Features",
-        "Documentation",
-        "Referral Program",
-        "Pricing",
+        "Sell On GrabDeal",
+        "Sell Under GrabDeal Accelerator",
+        "Become An Affiliate",
+        "Advertise On GrabDeal",
+        "Fulfilment By GrabDeal",
       ],
     },
     {
       type: "Services",
       subTypes: [
-        "Documentation",
-        "Design",
-        "Themes",
-        "Illustrations",
-        "UI Kit",
+        "Home Delivery",
+        "Fresh Updates",
+        "Live Updates",
+        "Become A Member",
+        "Homemade Chocolates",
       ],
     },
     {
@@ -28,7 +28,7 @@ function Footer() {
     },
     {
       type: "More",
-      subTypes: ["Documentation", "License", "Changelog"],
+      subTypes: ["Your Account", "License", "Create New Account"],
     },
   ];
   const socialLinks = [
@@ -41,11 +41,11 @@ function Footer() {
     <footer className="py-3 mx-3">
       <div className="brand-container">
         <div className="brand">
-          <span>ehya</span>
+          <span>GrabDeal</span>
           <span className="dot">.</span>
         </div>
         <p className="description">
-          Build a modern and creative website with crealand
+          Shop with us to get amazing discouts!!!
         </p>
 
         <ul className="social-links">
@@ -62,7 +62,7 @@ function Footer() {
               <ul>
                 {subTypes.map((type, index) => (
                   <li key={index}>
-                    <a href="#">{type}</a>
+                    <a href="/">{type}</a>
                   </li>
                 ))}
               </ul>
